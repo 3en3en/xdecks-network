@@ -15,8 +15,8 @@
     "composer",
     "composer-network"
   ],
-  "author": "Benjamin Weihs",
-  "email": "benjaminweihs@gmx.de",
+  "author": "3en 3en",
+  "email": "2.07@gmx.de",
   "license": "Apache-2.0",
   "devDependencies": {
     "composer-admin": "^0.19.6",
