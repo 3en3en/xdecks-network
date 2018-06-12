@@ -1,0 +1,39 @@
+
+namespace org.xdecks
+
+participant Member_CC identified by organization {
+  o String organization
+}
+
+enum ValidationState {
+  o TO_BE_VALIDATED
+  o REJECTED
+  o ACCEPTED
+}
+
+asset XdecksAsset identified by assetName {
+  o String assetName
+  --> Member_CC member
+  o ValidationState state
+  o String minVotes
+  o Integer votes default=0
+  o String value
+  o String description
+}
+
+transaction ChangeAssetValue {
+  --> Member_CC member
+  --> XdecksAsset asset
+  o String newValue
+}
+
+transaction Validate {
+  --> Member_CC member
+  --> XdecksAsset xdecksAsset
+}
+
+transaction ChangeValidationStatus {
+   --> Member_CC member
+   --> XdecksAsset asset
+  o String newState
+}
