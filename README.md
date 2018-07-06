@@ -10,3 +10,4 @@ Test local version
 Visit: https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial install prerequisites and follow the tutorial from step 3 (change "tutorial-network" to "xdecks-network")
 
 
+For further research, and the according process to derive the business logic of this prototype, my thesis can be found here: https://repository.tudelft.nl/islandora/object/uuid:84c412f8-214e-4865-b066-0b962cce3597?collection=education
