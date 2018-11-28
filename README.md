@@ -11,3 +11,5 @@ Visit: https://hyperledger.github.io/composer/latest/tutorials/developer-tutoria
 
 
 For further research, and the according process to derive the business logic of this prototype, my thesis can be found here: https://repository.tudelft.nl/islandora/object/uuid:84c412f8-214e-4865-b066-0b962cce3597?collection=education
+&
+see the file "Hyperledger prototype demo" for a short demo video
